@@ -109,7 +109,7 @@ Do the Following for each Route:
 
 - For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
-* HINTS: 
+HINTS: 
 - Join the station and measurement tables for some of the queries.
 - Use the Flask jsonify function to convert your API data to a valid JSON response object.
 
