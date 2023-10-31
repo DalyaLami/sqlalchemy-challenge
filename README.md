@@ -1,9 +1,9 @@
 # sqlalchemy-challenge
  
-**Instructions
+** Instructions
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii. To help with your trip planning, you decide to do a climate analysis about the area. The following sections outline the steps that you need to take to accomplish this task.
 
-**Part 1: Analyze and Explore the Climate Data
+** Part 1: Analyze and Explore the Climate Data
 In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib. To do so, complete the following steps:
 
 * Note that you’ll use the provided files (climate_starter.ipynb and hawaii.sqlite) to complete your climate analysis and data exploration.
@@ -18,7 +18,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 
 4.	Perform a precipitation analysis and then a station analysis by completing the steps in the following two subsections.
 
-**Precipitation Analysis
+** Precipitation Analysis
 
 1.	Find the most recent date in the dataset.
 
@@ -39,7 +39,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 
 7.	Use Pandas to print the summary statistics for the precipitation data.
 
-**Station Analysis
+** Station Analysis
 
 1.	Design a query to calculate the total number of stations in the dataset.
 
@@ -82,6 +82,7 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
 - /api/v1.0/<start>/<end>
 
 Do the Following for each Route:
+
 1. /api/v1.0/precipitation
 
 - Convert the query results from your precipitation analysis (i.e. retrieve only the last 12 months of data) to a dictionary using date as the key and prcp as the value.
@@ -106,7 +107,7 @@ Do the Following for each Route:
 
 - For a specified start date and end date, calculate TMIN, TAVG, and TMAX for the dates from the start date to the end date, inclusive.
 
-Hints:
+*Hints:
 - Join the station and measurement tables for some of the queries.
 - Use the Flask jsonify function to convert your API data to a valid JSON response object.
 
