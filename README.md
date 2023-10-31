@@ -65,7 +65,8 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 
 -	Plot the results as a histogram with bins=12, as the following image shows:
   
-![Temperature Observation](https://github.com/DalyaLami/sqlalchemy-challenge/assets/140478479/73ae3e86-f1f9-4f35-87e7-4dbb125a2a8b)
+![Temperature Observation](https://github.com/DalyaLami/sqlalchemy-challenge/assets/140478479/aeab5582-6d9d-4c02-beaf-7cf5911e8c4d)
+
 
 4.	Close your session.
 
